@@ -33,12 +33,12 @@ GITHUB_REPO=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Source Code 🗂", url="https://github.com/Itz-fork/Mega.nz-Bot"
+                        "Source Code 🗂", url="https://t.me/jettastic"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Support Group 🆘", url="https://t.me/Nexa_bots"
+                        "Support Group 🆘", url="https://t.me/jetbots_support"
                     )
                 ]
             ]
