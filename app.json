@@ -1,15 +1,15 @@
 {
     "name": "Mega.nz Bot",
     "description": "Simple Telegram Bot to download files from Mega.nz",
-    "logo": "https://telegra.ph/file/583f46da57641b90c28f9.png",
+    "logo": "https://telegra.ph/file/38ba27908775eada58d6e.jpg",
     "keywords": [
         "mega.nz",
         "Telegram Bot",
         "mega.nz bot"
     ],
-    "website": "https://t.me/NexaBotsUpdates",
+    "website": "https://t.me/jettastic",
     "repository": "https://github.com/Itz-fork/Mega.nz-Bot",
-    "success_url": "https://t.me/NexaBotsUpdates",
+    "success_url": "https://t.me/jetbots",
     "env": {
         "APP_ID": {
             "description": "Your APP_ID from my.telegram.org",
