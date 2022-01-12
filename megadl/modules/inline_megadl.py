@@ -23,7 +23,7 @@ async def inline_megadl(client, query):
         if megadl_q.strip() == "":
             aboutinlinemsg = """
             ✪ **[Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot)**
-`A Simple ` [Open Source](https://github.com/Itz-fork/Mega.nz-Bot)` Telegram Bot to Do `[More](https://github.com/Itz-fork/Mega.nz-Bot#features)` with Mega.nz Cloud Storage.`
+`A Simple ` [Open Source](https://github.com/Itz-fork/Mega.nz-Bot)` Telegram Bot to Do `[More](https://t.me/jetbots)` with Mega.nz Cloud Storage.`
                 
 **Developed with ❤️ by [Itz-fork](https://github.com/Itz-fork)**
 """
@@ -34,14 +34,14 @@ async def inline_megadl(client, query):
                 InlineQueryResultArticle(
                     title="About Mega.nz-Bot",
                     description="A Simple Bot to Do More with Mega.nz",
-                    thumb_url="https://telegra.ph/file/583f46da57641b90c28f9.png",
+                    thumb_url="https://telegra.ph/file/38ba27908775eada58d6e.jpg",
                     input_message_content=InputTextMessageContent(aboutinlinemsg, disable_web_page_preview=True),
                     reply_markup=INLINE_QUR_B,
                 ),
                 InlineQueryResultArticle(
                     title="Get Help",
                     description="Click here if you don't know how to use this bot.",
-                    thumb_url="https://telegra.ph/file/92df448c01c9a46ec32b3.png",
+                    thumb_url="https://telegra.ph/file/38ba27908775eada58d6e.jpg",
                     input_message_content=InputTextMessageContent(helpinlinemsg, disable_web_page_preview=True),
                     reply_markup=INLINE_MSGB,
                 )
